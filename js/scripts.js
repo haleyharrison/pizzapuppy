@@ -18,14 +18,21 @@ var setHappyHourPrice = function() {
   large = 15;
 };
 
+var is
+
 var getTotalPrice = function(quantity, price) {
   return quantity * price;
-}
+};
 
+$(document).ready(function() {
 
+var small = 0;
+var medium = 0;
+var large = 0;
 
-
-
+$(".btn-time-early").click(function() {
+  var time = parseInt($("button.btn-time-early").val());
+  console.log()
 
 
 
